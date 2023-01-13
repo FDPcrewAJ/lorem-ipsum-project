@@ -1,7 +1,27 @@
+body {
+    font-size: 115%;
+    margin: 0;
+}
+
 h1,h2,h3 {
     font-family: 'Karla', sans-serif;
 }
 
 p {
     font-family: 'Inconsolata', monospace;
+}
+
+/* Style the banner */
+header {
+    background-image: url("images/1563113840200_8689d32c8a4f8a39a003fc5476e6f873.png");
+    height: 80vh;
+    min-height: 500px;
+    max-height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header section {
+    padding: 1rem;
+    color: white;
 }
