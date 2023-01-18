@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-size: 115%;
     margin: 0;
@@ -14,7 +23,7 @@ p {
 /* Style the banner */
 header {
     background-image: url("images/1563113840200_8689d32c8a4f8a39a003fc5476e6f873.png");
-    height: 80vh;
+    height: 75vh;
     min-height: 500px;
     max-height: 1000px;
     background-size: cover;
@@ -24,4 +33,29 @@ header {
 header section {
     padding: 1rem;
     color: white;
+}
+
+/* Center the article */
+.centered-main {
+    width: 70%;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+/* Style Floated Boxes */
+.box-right {
+    box-sizing: content-box;
+    float: right;
+    width: 550px;
+    padding: 0.5em;
+    border: 2px solid black;
+    margin: 0 0 0 1em;
+}
+
+.box-right img {
+    width: 100%;
+}
+
+.clear-float {
+    clear: both;
 }
