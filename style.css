@@ -82,5 +82,5 @@ header section {
 
 footer {
     background-color: var(--lighter-background);
-    padding: 0.5em;
+    padding: 0.1em 0;
 }
