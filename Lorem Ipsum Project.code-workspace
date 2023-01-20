@@ -4,5 +4,17 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"foad",
+			"fopen",
+			"giga",
+			"gurfle",
+			"Haxx",
+			"Lamport",
+			"pallete",
+			"Starcraft",
+			"tera"
+		]
+	}
 }
