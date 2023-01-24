@@ -21,6 +21,8 @@ body {
     margin: 0;
     color: var(--text);
     background-color: var(--background);
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.2;
 }
 
 h1,h2,h3 {
@@ -28,7 +30,12 @@ h1,h2,h3 {
 }
 
 p {
-    font-family: 'Inconsolata', monospace;
+    max-width: 45rem;
+}
+
+#tagline {
+    text-align: right;
+    float: right;
 }
 
 a:link, a:visited {
