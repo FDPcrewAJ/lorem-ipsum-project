@@ -41,6 +41,10 @@ a:hover {
     color: var(--link-hover);
 }
 
+a:active, a:focus {
+    color: var(--accent)
+}
+
 /* Style the banner */
 header {
     background-image: url("images/1563113840200_8689d32c8a4f8a39a003fc5476e6f873.png");
